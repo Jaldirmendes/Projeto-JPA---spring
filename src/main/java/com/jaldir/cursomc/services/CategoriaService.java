@@ -21,5 +21,13 @@ public class CategoriaService {
 		"Objeto não encontrado! Id: " + id + ", Tipo: " +
 		Categoria.class.getName()));
 		}
+
+	public CategoriaRepository getRepo() {
+		return repo;
+	}
+
+	public void setRepo(CategoriaRepository repo) {
+		this.repo = repo;
+	}
 	
 }
